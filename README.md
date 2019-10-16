@@ -29,15 +29,11 @@ of Glioblastoma patients.
 The resultant object will be a list of json objects which describe each discrete copy number call
 event. The “alteration” field of each object will be:
 
-● 0 = no change
-
-● NA = Data not available
-
-● -1 or +1 = single copy of gene is lost or gained (you can ignore these)
-
-● -2 = both copies of the gene are deleted
-
-● +2 = multiple copies of the gene are observed
+● 0 = no change  
+● NA = Data not available  
+● -1 or +1 = single copy of gene is lost or gained (you can ignore these)  
+● -2 = both copies of the gene are deleted  
+● +2 = multiple copies of the gene are observed  
 
 ### entrezGeneIds
 The Entrez gene id can be obtained from the included file “gene_results.1000.tsv” which

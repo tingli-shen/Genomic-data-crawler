@@ -57,12 +57,16 @@ TP53 is mutated in 29% of all cases.
 TP53 is copy number altered in 2% of all cases.
 Total % of cases where TP53 is altered by either mutation or copy number alteration: 30% of all
 cases.
-```  
+```
+
 For more than one gene:  
+
 `
 solution.py TP53 MDM2 MDM4
 `  
-will return  
+
+will return 
+
 ```
 TP53 is altered in 30% of cases. MDM2 is altered in 10% of cases. MDM4 is altered in 10% of
 cases.

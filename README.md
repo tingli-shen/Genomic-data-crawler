@@ -48,7 +48,7 @@ For example, in the simplest instance, a user would execute your program with a 
 and output a simple summary.
 
 `
-solution.py TP53
+python solution.py TP53
 `
 
 will return
@@ -62,7 +62,7 @@ cases.
 For more than one gene:  
 
 `
-solution.py TP53 MDM2 MDM4
+python solution.py TP53 MDM2 MDM4
 `  
 
 will return 
